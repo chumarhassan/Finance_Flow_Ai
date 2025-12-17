@@ -273,7 +273,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Chumar Hassan**
+**Chaudhary Umar Hassan**
 
 - GitHub: [@chumarhassan](https://github.com/chumarhassan)
 
