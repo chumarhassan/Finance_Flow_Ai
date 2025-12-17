@@ -1,0 +1,60 @@
+name: finance_flow_ai
+description: "Smart Personal Finance & Expense Analyzer with AI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase - Backend services for authentication, database, and notifications
+  firebase_core: ^3.6.0              # Core Firebase functionality - MUST have this first
+  firebase_auth: ^5.3.1              # User authentication (login/signup)
+  cloud_firestore: ^5.4.4            # Cloud database to store transactions, goals, etc.
+  firebase_messaging: ^15.1.3        # Push notifications for reminders and alerts
+  
+  # Authentication
+  google_sign_in: ^6.2.1             # Google Sign-In for easy authentication
+
+  # State Management - Helps manage app data across screens
+  provider: ^6.1.2                   # Simple and powerful state management
+
+  # UI/UX - Makes the app look beautiful and professional
+  google_fonts: ^6.2.1               # Beautiful custom fonts
+  lottie: ^3.1.2                     # Smooth JSON animations
+  fl_chart: ^0.69.0                  # Beautiful charts for analytics
+  shimmer: ^3.0.0                    # Loading skeleton effects
+  animations: ^2.0.11                # Pre-built smooth animations
+
+  # AI/ML - Powers the intelligent features
+  http: ^1.2.0                      # Make API calls to external services
+  google_generative_ai: ^0.4.6      # Google's Gemini AI for smart insights
+
+  # Utilities - Helper packages
+  intl: ^0.19.0                      # Format dates, numbers, and currency
+  shared_preferences: ^2.3.2         # Save simple data locally (like theme preference)
+  pdf: ^3.11.1                       # Generate PDF reports
+  path_provider: ^2.1.4              # Get device storage paths
+  image_picker: ^1.1.2               # Pick images for profile picture
+  flutter_local_notifications: ^17.2.2  # Local notifications for alerts
+  timezone: ^0.9.4                   # Timezone support for scheduled notifications
+
+  # Icons - Beautiful icon sets
+  cupertino_icons: ^1.0.8            # iOS style icons
+  font_awesome_flutter: ^10.7.0      # Font Awesome icon library
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0              # Enforces good coding practices
+
+flutter:
+  uses-material-design: true         # Enables Material Design components
+
+  # Add custom assets here (we'll add Lottie animations later)
+  # assets:
+  #   - assets/animations/
+  #   - assets/images/
