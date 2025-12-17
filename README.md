@@ -9,7 +9,7 @@
 
 **Smart Personal Finance & Expense Analyzer with AI-Powered Insights**
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [Architecture](#-architecture) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Configuration](#-configuration) • [Usage](#-usage) • [Architecture](#-architecture) • [Contributing](#-contributing)
 
 </div>
 
@@ -50,22 +50,7 @@ FinanceFlow AI is a modern, intelligent personal finance management application 
 - **Responsive Layout** - Works on mobile, tablet, and web
 - **Smooth Animations** - Lottie animations and transitions
 
-## 📸 Screenshots
 
-<div align="center">
-<table>
-  <tr>
-    <td><img src="screenshots/dashboard.png" width="200" alt="Dashboard"/></td>
-    <td><img src="screenshots/analytics.png" width="200" alt="Analytics"/></td>
-    <td><img src="screenshots/goals.png" width="200" alt="Goals"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Dashboard</b></td>
-    <td align="center"><b>Analytics</b></td>
-    <td align="center"><b>Goals</b></td>
-  </tr>
-</table>
-</div>
 
 ## 🚀 Installation
 
